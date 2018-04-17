@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+ header {
+	background-image: url("images/header-img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-size: 30px;
+	color: white;
+	margin: 0;
+	padding: 20px;
+}
+h1 {
+	font-size: 30px;
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+}
+.navigation {
+	width: 100%;
+	background-color: #006;
+	margin: 0;
+}
+a {
+	color: white;
+	font-size:15px;
+}
+.wireframe {
+	color: black;
+}
+ul {
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+	list-style-type: none;
+}
+li{
+	display: inline-block;
+	padding: 10px;
+}
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+.container {
+	width: 80%;
+	background-color: white;
+	margin: 0 auto;
+}
+body {
+	background-color: #e6e6e6;
+	width: 100%;
+	margin: 0;
+}
+h2 { 
+	margin: 3%; 
+}
+.logo1, .logo2, .logo3, .styletile1, .styletile2, .styletile3 {
+	border: 5px solid blue;
+	width: 92%;
+	margin: 4%;
+}
+h3 {
+	margin: 4%;
+}
+
+img {
+	margin: 2% ;
+	width: 95%;
+}
+.job {
+	width: 94%;
+	margin: 3%;
+}
+.payment {
+	width: 94%;
+	margin: 3%;	
+}
+.description {
+	margin: 2%;
+}
+.flat {
+	color: black;
+	margin: 2%;
+}
+.last {
+	width: 100%;
+	padding: 10px;
+}
+#last {
+	padding: 0% 4%;
+}
+footer {
+	clear: left;
+	text-align: center;
+	background-color: #006;
+	color: white;
+	margin: 0;
+	padding: 10px;
+}
+
+@media (min-width: 800px) {
+	.logo1, .styletile1 {
+		float: left;
+		width: 44%;
+		margin: 3%;
+	}
+	.logo2, .styletile2 {
+		float: right;
+		width: 44%;
+		margin: 3%;
+	}
+	.styletile3 {
+		width: 44%;
+		margin: 0 auto;
+		clear: left;
+	}
+	.logo3 {
+		float: right;
+		width: 44%;
+		margin: 3%;
+	}
+	.last {
+		clear: left;
+	}
+	.mobile, .tablet, .desktop {
+		display: inline-block;
+		width: 29%;
+		margin: 2%;
+	}
+
+}
